@@ -29,5 +29,5 @@ fi
 
 # Start Vite
 echo "[start] Starting Vite dev server..."
-npx --prefix "$DIR" vite --host
-
+#npx --prefix "$DIR" vite --host
+node "$DIR/node_modules/vite/bin/vite.js" --host
